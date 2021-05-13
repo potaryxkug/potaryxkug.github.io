@@ -1,0 +1,99 @@
+
+
+/* Dash app layout and css file
+https://dash.plotly.com/layout
+https://codepen.io/chriddyp/pen/bWLwgP.css */
+
+body {
+   /* font-family: sans-serif;*/
+
+    background-color: #192444;
+    margin: 5%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hotpink
+}
+
+#header{
+	align-items: center;
+}
+.flex-display{
+	display: flex;
+}
+
+#mainContainer{
+	display: flex;
+	flex-direction: column;
+} 
+
+#title{
+
+	text-align: center;
+}
+#title1{
+	text-align: center;
+}
+/*---------------------------- --------------------*/
+.card_container{
+ border-radius: 5px;
+ background-color: #1f2c56;
+ margin:25px;
+ padding: 15px;
+ position: relative;
+ box-shadow: 2px 2px 2px #1f2c56;
+}
+
+.create_container{
+ border-radius: 5px;
+ background-color: #1f2c56;
+ margin: 18px;
+ padding: 15px;
+ position: relative;
+ box-shadow: 2px 2px 2px #1f2c56;
+
+}
+
+.dcc_compon{
+	font-size: 20px;
+	size: 20;
+	margin: 0;
+	padding:10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: calc(100%-40px);
+}
+
+.fix_label{
+	font-size: 20px;
+	margin: 0;
+	padding:10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: calc(100%-40px);
+}
+/* -------------------- Scrol bar ---------------------- */
+
+.Select-control, .Select-menu-outer, .select-multi-value-wrapper, .select-up, .is-open .Select-control{ 
+	background-color: #1f2c56;
+	color: white; }
+
+.Select-control{
+	border: 0.5px solid green;
+	
+}
+
+.has-value.Select--single>.Select-control, .Select-value, .Select-value-label, .has-value.is-pseudo-focused.Select--single>{
+	color:white;
+}
+
+.choix_pays{ font-size: 20;
+			size:20;
+			background-size: 20;
+ }
+
+
+
+/* width*
+::-webkit-scrollbar {
+	wi;*/
